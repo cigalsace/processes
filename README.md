@@ -2,6 +2,6 @@
 
 Répertoire ressource pour l'administrateur de données
 
-[/gdal](https://github.com/cigalsace/processes/gdal "gdal") contient les scripts de convertion
+[/gdal](https://github.com/cigalsace/processes/tree/master/gdal "gdal") contient les scripts de convertion
 
-[/sld](https://github.com/cigalsace/processes/sld "sld") des exemples de fichiers de mise en forme sld
+[/sld](https://github.com/cigalsace/processes/tree/master/sld "sld") des exemples de fichiers de mise en forme sld
