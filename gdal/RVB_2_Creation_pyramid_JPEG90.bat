@@ -16,7 +16,7 @@ rem but only if osgeo4w called without parameters
 
 @echo on
 
-rem création du vrt unique qui recense les dalles
+rem crï¿½ation du vrt unique qui recense les dalles
 
 rem for %%i in ("F:\54_A\*.tif") do echo %%i >> "T:\CIGAL\Retile\ortho_lorraine\index\liste54.txt"
 
@@ -25,5 +25,3 @@ rem "C:\Program Files\QGIS Pisa\bin\gdalbuildvrt" -input_file_list "T:\CIGAL\Ret
 "C:\Program Files\QGIS Pisa\bin\gdal_retile" -v -levels 7 -ps 2048 2048 -r bilinear -co TILED=TRUE -co COMPRESS=JPEG -co JPEG_QUALITY=90 -co PHOTOMETRIC=RGB -co ALPHA=YES -co INTERLEAVE=BAND  -s_srs EPSG:2154 -targetDir K:\pyr54 -useDirForEachRow "T:\CIGAL\Retile\ortho_lorraine\index\liste54.vrt"
 
 pause
-
-

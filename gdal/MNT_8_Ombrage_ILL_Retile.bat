@@ -15,7 +15,7 @@ rem List available o4w programs
 rem but only if osgeo4w called without parameters
 @echo on
 
-rem calcul de la pyramide ombrage
+rem calcul de la pyramide ombrage ex https://www.cigalsace.org/mapfishapp/map/0af016c744934f32d2ebb306fc809358
 
 "C:/Program Files/QGIS Dufour/bin/gdal_retile" -v -r bilinear -co TILED=TRUE -co COMPRESS=LZW -ps 2048 2048 -s_srs EPSG:3948 -levels 7 -targetDir C:\Users\klipfeljp\Documents\PROJETS\GEOPLATEFORME\TEST\LIDAR\MNTpyramidOMB -useDirForEachRow C:\Users\klipfeljp\Documents\PROJETS\GEOPLATEFORME\TEST\LIDAR\MNT_OMB_ILL_CC48_50cm.vrt
 
