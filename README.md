@@ -6,4 +6,4 @@ Répertoire ressource pour l'administrateur de données
 
 [/sld](https://github.com/cigalsace/processes/tree/master/sld "sld") des exemples de fichiers de mise en forme sld
 
-[/sld](https://github.com/cigalsace/processes/tree/master/jmeter "jmeter") des exemples de tests jmeter
+[/jmeter](https://github.com/cigalsace/processes/tree/master/jmeter "jmeter") des exemples de tests jmeter
